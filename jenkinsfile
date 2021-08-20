@@ -1,0 +1,12 @@
+#!/bin/bash/
+
+REPO=jenkinsd
+
+if [ ! -d "$REPO" ]; then
+git clone https://github.com/graydb/jenkinsd.git
+else
+git fetch https://github.com/graydb/jenkinsd.git
+fi
+
+
+
